@@ -1,0 +1,47 @@
+<ion-view view-title="设置">
+  <ion-nav-bar class="bar-{{style.color}}">
+          
+  </ion-nav-bar>
+  <ion-content class="padding">
+  
+    <ion-list class="list-inset">
+      <ion-item class="item-input" >
+        <span class="input-label">服务器地址:</span>
+        <input type="text" value="svn.daoshenggroup.com:8080">
+      </ion-item>
+    </ion-list>
+    <br/>
+    <ion-list class="list-inset">
+      <ion-item class="item-toggle" >
+        使用SSL协议
+        <label class="toggle toggle-{{style.color}}">
+		       <input type="checkbox">
+		       <div class="track">
+		         <div class="handle"></div>
+		       </div>
+		    </label>
+      </ion-item>
+    </ion-list>
+    <br/>
+    <ion-list class="list-inset">
+      <ion-item class="item-toggle" >
+        保存密码
+        <label class="toggle toggle-{{style.color}}">
+           <input type="checkbox" checked>
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+        </label>
+      </ion-item>
+    </ion-list>
+    <br/>
+    <ion-list class="list-inset">
+      <ion-item class="item-icon-right" ng-href="#/field/settings/about">
+        关于
+        <a class=" icon ion-chevron-right"></a>
+      </ion-item>
+    </ion-list>
+    <br/>
+    <a class="button button-block button-{{style.color}}" ng-click="checkServer()">服务器验证</a>
+  </ion-content>
+</ion-view>
