@@ -1,6 +1,6 @@
 angular.module('settings.controllers', [])
 
-.controller('SettingsCtrl', function($scope,AppConfig, $ionicLoading) {
+.controller('SettingsCtrl', function($scope,AppConfig, $ionicLoading,$ionicHistory) {
 	$scope.style=AppConfig.Style;
 	
 	$scope.checkServer = function(){
@@ -9,6 +9,10 @@ angular.module('settings.controllers', [])
 	    });
 		
 		window.setTimeout($ionicLoading.hide,1000); 
+	}
+	
+	$scope.goBack=function(){
+		$ionicHistory.goBack();
 	}
 })
 ;
