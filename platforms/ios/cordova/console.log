@@ -1,0 +1,8 @@
+2015-03-25 10:02:23.587 field[8986:487841] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/EDB52BB2-B5E8-4E2D-AB60-314682F4255B/Library/Cookies/Cookies.binarycookies
+2015-03-25 10:02:23.808 field[8986:487841] Apache Cordova native platform version 3.8.0 is starting.
+2015-03-25 10:02:23.809 field[8986:487841] Multi-tasking -> Device: YES, App: YES
+2015-03-25 10:02:23.821 field[8986:487841] Unlimited access to network resources
+2015-03-25 10:02:24.251 field[8986:487841] [CDVTimer][keyboard] 0.069022ms
+2015-03-25 10:02:24.252 field[8986:487841] [CDVTimer][TotalPluginStartup] 0.258982ms
+2015-03-25 10:02:24.481 field[8986:487841] Resetting plugins due to page load.
+2015-03-25 10:02:24.779 field[8986:487841] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/65B1CFA6-E24A-4310-8C31-11D7AFAA3E0B/field.app/www/index.html#/field/login
