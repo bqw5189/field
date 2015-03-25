@@ -1,0 +1,9 @@
+.box img{
+	width:100%
+}
+.nav{
+  padding-bottom:20px;	
+}
+.nav .slider-pager{
+	bottom: 10px;
+}
