@@ -4,6 +4,59 @@
 .nav{
   padding-bottom:20px;	
 }
+.nav .row{
+	padding-top:0px;
+}
+.nav .card{
+	margin-top:6px;
+}
 .nav .slider-pager{
 	bottom: 10px;
+}
+
+.nav .row,.col:first-child{
+	padding-left:1px;
+}
+
+.nav .row,.col:last-child{
+  padding-right:1px;
+}
+
+.nav .item-complex .item-content, .nav .item-radio .item-content{
+	background-color:#4a87ee
+}
+
+.nav .item-striped .item-content{
+  background-color:#66cc33;
+}
+
+.item.active, .item.activated, .nav .item-complex.active .item-content, .nav .item-complex.activated .item-content,.nav .item .item-content.active,.nav .item .item-content.activated {
+  border-color: #ccc;
+  background-color: #D9D9D9; }
+
+.item-thumbnail-left, .item-thumbnail-left .item-content{
+	padding-top:auto;
+}
+
+.item-thumbnail-left > img:first-child, .item-thumbnail-left .item-image, .item-thumbnail-left .item-content > img:first-child, .item-thumbnail-left .item-content .item-image{
+	width:60px;
+	height:60px;
+	top:20px;
+}
+
+
+.item-thumbnail-left, .item-thumbnail-left .item-content{
+	padding-left:90px
+}
+
+.item-content p{
+	text-align:right;
+	color:#fff;
+}
+.item-content h2{
+  color:#fff;
+  bottom:0px;
+}
+.item-complex .item-content{
+	padding-right:10px
 }
