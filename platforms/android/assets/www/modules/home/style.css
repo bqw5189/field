@@ -1,0 +1,17 @@
+.box img{
+	width:100%
+}
+.nav{
+  padding-bottom:20px;	
+}
+.nav .slider-pager{
+	bottom: 10px;
+}
+
+.nav .row,.col:first-child{
+	padding-left:0px;
+}
+
+.nav .row,.col:last-child{
+  padding-right:0px;
+}
