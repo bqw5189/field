@@ -14,3 +14,4 @@
 2015-03-25 15:36:38.080 field[9621:590774] [CDVTimer][TotalPluginStartup] 0.259042ms
 2015-03-25 15:36:38.406 field[9621:590774] Resetting plugins due to page load.
 2015-03-25 15:36:38.717 field[9621:590774] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/A4DB9198-751E-4C07-B3FF-1B586978C17D/field.app/www/index.html#/field/login
+2015-03-26 10:36:51.469 field[9621:667177] Terminating since there is no system app.
