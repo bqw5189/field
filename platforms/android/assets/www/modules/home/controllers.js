@@ -3,7 +3,7 @@ angular.module('home.controllers', [])
 .controller('HomeCtrl', function($scope,BacklogDatas) {
 	$scope.topSlideIndex = 0;
 	
-	$scope.backlogsCount = BacklogDatas.length;
+	$scope.backlogsCount = function(){return BacklogDatas.length;}
 	
 	
 	

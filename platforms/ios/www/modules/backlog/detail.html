@@ -1,35 +1,36 @@
 <ion-view view-title="{{title()}}">
   <ion-content class="detail">
-	  <ion-item class="item-stable"
-	            ng-click="toggleGroup('审批')"
-	            ng-class="{active: isGroupShown('审批')}">
-	      <i class="icon" ng-class="isGroupShown('审批') ? 'ion-minus' : 'ion-plus'"></i>
-	    审批
-	  </ion-item>
-	  <ion-item class="item-accordion"
-	            ng-show="isGroupShown('审批')">
-	    <ion-list>
-	      <ion-item class="item item-input">
-			    <input type="text" placeholder="审批意见">
-			  </ion-item>
-  
-			  <ion-item class="item-input item-select">
-			    <div class="input-label">
-			      请选择操作
-			    </div>
-			    <select>
-			      <option>同意</option>
-			    </select>
-			  </ion-item>
-			  
-			  <div class="button-bar">
-				  <a class="button button-balanced">提交</a>
-				  <a class="button" ng-click="goBack()">返回</a>
-				</div>
-			</ion-list>
-			
-	  </ion-item>    
+    <div ng-show="isBacklog()">
+		  <ion-item class="item-stable"
+		            ng-click="toggleGroup('审批')"
+		            ng-class="{active: isGroupShown('审批')}">
+		      <i class="icon" ng-class="isGroupShown('审批') ? 'ion-minus' : 'ion-plus'"></i>
+		    审批
+		  </ion-item>
+		  <ion-item class="item-accordion"
+		            ng-show="isGroupShown('审批')">
+		    <ion-list>
+		      <ion-item class="item item-input">
+				    <input type="text" placeholder="审批意见">
+				  </ion-item>
 	  
+				  <ion-item class="item-input item-select">
+				    <div class="input-label">
+				      请选择操作
+				    </div>
+				    <select>
+				      <option>同意</option>
+				    </select>
+				  </ion-item>
+				  
+				  <div class="button-bar">
+					  <a class="button button-balanced" ng-click="onSubmit(backlog())">提交</a>
+					  <a class="button" ng-click="goBack()">返回</a>
+					</div>
+				</ion-list>
+				
+		  </ion-item>    
+	  </div>
 	  <ion-item class="item-stable"
               ng-click="toggleGroup('办文过程')"
               ng-class="{active: isGroupShown('办文过程')}">

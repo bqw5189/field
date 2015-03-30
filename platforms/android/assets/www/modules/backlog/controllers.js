@@ -1,22 +1,13 @@
 angular.module('backlog.controllers', [])
 
-.controller('BacklogCtrl', function($scope,AppConfig, $ionicLoading,$ionicHistory,BacklogDatas,$stateParams) {
+.controller('BacklogCtrl', function($scope,AppConfig, $ionicLoading,$ionicHistory,BacklogDatas,BacklogedDatas,$stateParams) {
 	$scope.style=AppConfig.Style;
-	
-	$scope.title=function(){
-		for (var i = 0; i < BacklogDatas.length; i++){
-			if (BacklogDatas[i].id == $stateParams.id){
-				return BacklogDatas[i].title;
-			}
-		}
-		return "待办详细";
-	}
+	$scope.backlogDatas = BacklogDatas;
+	$scope.backlogedDatas = BacklogedDatas;
 	
 	$scope.goBack=function(){
 		$ionicHistory.goBack();
 	}
-	
-	$scope.backlogDatas = BacklogDatas;
 	
 	/*
 	   * if given group is the selected group, deselect it
@@ -34,7 +25,50 @@ angular.module('backlog.controllers', [])
 		  if ('审批' == group){
 			  return true;
 		  }
+		  
 	    return $scope.shownGroup === group;
 	  };
+	  
+	  /**
+	   * backloged list
+	   */
+	  
+	  /**
+	   * detail
+	   */
+	  $scope.backlog=function(){
+			for (var i = 0; i < BacklogDatas.length; i++){
+				if (BacklogDatas[i].id == $stateParams.id){
+					return BacklogDatas[i];
+				}
+			}
+			return null;
+		}
+	  
+	  $scope.title=function(){
+			for (var i = 0; i < BacklogDatas.length; i++){
+				if (BacklogDatas[i].id == $stateParams.id){
+					return BacklogDatas[i].title;
+				}
+			}
+			return "待办详细";
+		}
+	  
+	  $scope.onSubmit = function(backlog){
+		  BacklogedDatas.push(backlog);
+		  
+		  BacklogDatas.splice(BacklogDatas.indexOf(backlog), 1);
+		  
+		  $ionicHistory.goBack();
+	  }
+	  
+	  $scope.isBacklog = function(){
+		  for (var i = 0; i < BacklogDatas.length; i++){
+				if (BacklogDatas[i].id == $stateParams.id){
+					return true;
+				}
+			}
+		  return false;
+	  }
 })
 ;
