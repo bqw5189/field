@@ -1,21 +1,10 @@
 <ion-view view-title="待办">
-  <ion-content>
-    <ion-list>
-      <ion-item class="item-icon-right" ng-href="#/field/home/backlog/lists/{{item.id}}" ng-repeat="item in backlogDatas">
-        {{item.title}}
-        <i class="icon ion-chevron-right "></i>
-        <div>
-        <span class="item-note">
-		      当前处理人:{{item.currentHandlePerson}}
-		    </span>
-		    <span class="item-note">
-          下一处理人:{{item.nextHandlePerson}}
-        </span>
-        <span class="item-note">
-          {{item.handleLastDate}}
-        </span>
-        </div>
-      </ion-item>
-    </ion-list>
-  </ion-content>
+	<ion-tabs class="tabs-striped tabs-top tabs-background-light tabs-color-positive">
+	  <ion-tab title="待办" ui-sref="field.home.backlog.lists.backlog">
+	    <ion-nav-view name="backlog-view"></ion-nav-view>
+	  </ion-tab>
+	  <ion-tab title="已办" ui-sref="field.home.backlog.lists.backloged">
+	    <ion-nav-view name="backloged-view"></ion-nav-view>
+	  </ion-tab>
+	</ion-tabs>
 </ion-view>
