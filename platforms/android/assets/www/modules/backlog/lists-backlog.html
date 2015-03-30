@@ -1,5 +1,5 @@
 <ion-view view-title="待办">
-     <div class="bar item-input-inset has-tabs-top">
+<!--  <div class="bar item-input-inset has-subheader bar-subheader">
       <label class="item-input-wrapper">
         <i class="icon ion-ios7-search placeholder-icon"></i>
         <input type="search" placeholder="搜索"  ng-model='searchText' >
@@ -7,8 +7,17 @@
       <button class="button button-clear">
         搜索
       </button>
-    </div>
-  <ion-content class="has-subheader ">
+    </div> -->
+  <ion-content class="">
+	  <ion-header-bar class="item-input-inset" >
+	      <label class="item-input-wrapper">
+	        <i class="icon ion-ios7-search placeholder-icon"></i>
+	        <input type="search" placeholder="搜索"  ng-model='searchText' >
+	      </label>
+	      <button class="button button-clear">
+	        搜索
+	      </button>
+	    </ion-header-bar>
     <ion-list>
       <ion-item class="item-icon-right" ng-href="#/field/home/backlog/lists/{{item.id}}" ng-repeat="item in backlogDatas | filter:searchText">
         {{item.title}}
