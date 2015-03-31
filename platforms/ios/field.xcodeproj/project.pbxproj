@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		1638EE3B7BC645A5B23D7FF3 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 71354ABBEAA9467980D1A275 /* IonicKeyboard.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -44,6 +43,9 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		D26B39E141CD45CAA25932CC /* CFCallNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 947BE708BE1B4F58880837C1 /* CFCallNumber.m */; };
+		9059B13F04BE4B5BA2F122F2 /* APPEmailComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E8AA07868423FB3F9493F /* APPEmailComposer.m */; };
+		85F8D7F498B14AA8AEEF5B56 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667AD6F7962A4D8AB4293225 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,11 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = field/config.xml; sourceTree = "<group>"; };
+		947BE708BE1B4F58880837C1 /* CFCallNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CFCallNumber.m"; path = "mx.ferreyra.callnumber/CFCallNumber.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		734A6CA89296480FB6AE1389 /* CFCallNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CFCallNumber.h"; path = "mx.ferreyra.callnumber/CFCallNumber.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		157E8AA07868423FB3F9493F /* APPEmailComposer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "APPEmailComposer.m"; path = "de.appplant.cordova.plugin.email-composer/APPEmailComposer.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E5F286776A254B38B4B88EEE /* APPEmailComposer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "APPEmailComposer.h"; path = "de.appplant.cordova.plugin.email-composer/APPEmailComposer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		667AD6F7962A4D8AB4293225 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +133,7 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				85F8D7F498B14AA8AEEF5B56 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +206,7 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				667AD6F7962A4D8AB4293225 /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,6 +230,10 @@
 				0F292FE413E54042B42A41D6 /* CDVLogger.h */,
 				82B71A90EBE946E28A0A2C85 /* CDVDevice.m */,
 				5BA7D8985A014B2E8B6E79C4 /* CDVDevice.h */,
+				947BE708BE1B4F58880837C1 /* CFCallNumber.m */,
+				734A6CA89296480FB6AE1389 /* CFCallNumber.h */,
+				157E8AA07868423FB3F9493F /* APPEmailComposer.m */,
+				E5F286776A254B38B4B88EEE /* APPEmailComposer.h */,
 			);
 			name = Plugins;
 			path = field/Plugins;
@@ -414,6 +427,8 @@
 				28E132EDA77B49B4BF874E4F /* UIWebViewExtension.m in Sources */,
 				3290CADF66CB42F494E10644 /* CDVLogger.m in Sources */,
 				2790C70F07F94B5B8125FEF1 /* CDVDevice.m in Sources */,
+				D26B39E141CD45CAA25932CC /* CFCallNumber.m in Sources */,
+				9059B13F04BE4B5BA2F122F2 /* APPEmailComposer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

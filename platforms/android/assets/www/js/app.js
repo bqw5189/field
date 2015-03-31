@@ -1,10 +1,12 @@
 // Field App
 
 var field = angular.module('field', ['ionic',
+                                     'ngCordova',
                                      'login.controllers',
                                      'home.controllers',
                                      'settings.controllers',
-                                     'backlog.controllers'
+                                     'backlog.controllers',
+                                     'address.controllers'
                                      ])
 
 .run(function($ionicPlatform) {

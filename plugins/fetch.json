@@ -16,5 +16,19 @@
             "type": "registry",
             "id": "com.ionic.keyboard"
         }
+    },
+    "mx.ferreyra.callnumber": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rohfosho/CordovaCallNumberPlugin.git",
+            "subdir": "."
+        }
+    },
+    "de.appplant.cordova.plugin.email-composer": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/katzer/cordova-plugin-email-composer.git",
+            "subdir": "."
+        }
     }
 }
