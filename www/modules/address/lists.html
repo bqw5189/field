@@ -10,20 +10,16 @@
   </ion-header-bar>
   <ion-content class="">
     <ion-list>
-      <ion-item class="item-icon-right" ng-href="#/field/home/backlog/lists/{{item.id}}" ng-repeat="item in addressDatas | filter:searchText">
+      <ion-item class="item-icon-left item-icon-right" ng-href="#/field/home/address/lists/{{item.id}}" ng-show='item.pid == pid && item.hasChild=="true"' ng-repeat="item in addressDatas | filter:searchText">
+        <i class="icon ion-person "></i>
         {{item.title}}
         <i class="icon ion-chevron-right "></i>
-        <div>
-        <span class="item-note">
-          当前处理人:{{item.currentHandlePerson}}
-        </span>
-        <span class="item-note">
-          下一处理人:{{item.nextHandlePerson}}
-        </span>
-        <span class="item-note">
-          {{item.handleLastDate}}
-        </span>
-        </div>
+      </ion-item>
+      
+      <ion-item class="item-icon-left item-icon-right" ng-href="#/field/home/address/lists/{{item.pid}}/{{item.id}}" ng-show='item.pid == pid && item.hasChild=="false"' ng-repeat="item in addressDatas | filter:searchText">
+        <i class="icon ion-person "></i>
+        {{item.title}}
+        <i class="icon ion-chevron-right "></i>
       </ion-item>
     </ion-list>
   </ion-content>

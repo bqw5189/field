@@ -1,193 +1,21 @@
-<ion-view view-title="{{title()}}">
+<ion-view view-title="{{title}}">
   <ion-content class="detail">
-    <div ng-show="isBacklog()">
-		  <ion-item class="item-stable"
-		            ng-click="toggleGroup('审批')"
-		            ng-class="{active: isGroupShown('审批')}">
-		      <i class="icon" ng-class="isGroupShown('审批') ? 'ion-minus' : 'ion-plus'"></i>
-		    审批
-		  </ion-item>
-		  <ion-item class="item-accordion"
-		            ng-show="isGroupShown('审批')">
-		    <ion-list>
-		      <ion-item class="item item-input">
-				    <input type="text" placeholder="审批意见">
-				  </ion-item>
-	  
-				  <ion-item class="item-input item-select">
-				    <div class="input-label">
-				      请选择操作
-				    </div>
-				    <select>
-				      <option>同意</option>
-				    </select>
-				  </ion-item>
-				  
-				  <div class="button-bar">
-					  <a class="button button-balanced" ng-click="onSubmit(backlog())">提交</a>
-					  <a class="button" ng-click="goBack()">返回</a>
-					</div>
-				</ion-list>
-				
-		  </ion-item>    
-	  </div>
-	  <ion-item class="item-stable"
-              ng-click="toggleGroup('办文过程')"
-              ng-class="{active: isGroupShown('办文过程')}">
-        <i class="icon" ng-class="isGroupShown('办文过程') ? 'ion-minus' : 'ion-plus'"></i>
-      办文过程
-    </ion-item>
-    <ion-item class="item-accordion"
-              ng-show="isGroupShown('办文过程')">
-      <ion-list>
-	      <ion-item>
-	        <span class="item-note">
-	          当前状态:本部室批阅(赵麒祥)
-	        </span>
-	      </ion-item>
-        <ion-item>
-          <span class="item-note">
-            李立群
-          </span>
-          <span class="item-note">
-            07-02
-          </span>
-          <span class="item-note">
-            已阅
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            孟令超
-          </span>
-          <span class="item-note">
-            07-01
-          </span>
-          <span class="item-note">
-            阅办
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            胡世斌
-          </span>
-          <span class="item-note">
-            06-30
-          </span>
-          <span class="item-note">
-            已阅
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            赵麒祥
-          </span>
-          <span class="item-note">
-            06-30
-          </span>
-          <span  class="item-note">
-            请各位科长阅并对信息部完成此类项目的能力予以分析。
-          </span>
-        </ion-item>
-	    </ion-list>
-    </ion-item>
-    
-    <ion-item class="item-stable"
-              ng-click="toggleGroup('行政发文')"
-              ng-class="{active: isGroupShown('行政发文')}">
-        <i class="icon" ng-class="isGroupShown('行政发文') ? 'ion-minus' : 'ion-plus'"></i>
-      行政发文
-    </ion-item>
-    <ion-item class="item-accordion"
-              ng-show="isGroupShown('行政发文')">
-      <ion-list>
-        <ion-item>
-          <span class="item-note">
-            系列收文
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            <b>收文日期:</b>
-          </span>
-          <span class="item-note">
-            2014-6-23
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            <b>收文文号:</b>
-          </span>
-          <span class="item-note">
-            信-2014-0190
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            <b>来文单位:</b>
-          </span>
-          <span class="item-note">
-            投发公司
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            <b>来文文号:</b>
-          </span>
-          <span class="item-note">
-            沪石投(2014)36号
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            <b>文件标题:</b>
-          </span>
-          <span class="item-note">
-            关于上报稲盛石化投发公司ERP系统报表及辅助程序开发项目建议书的请示
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            <b>成文日期:</b>
-          </span>
-          <span class="item-note">
-            2014年6月20日
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            <b>秘密程度:</b>
-          </span>
-          <span class="item-note">
-            一般
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            <b>缓急程度:</b>
-          </span>
-          <span class="item-note">
-            一般
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            <b>正文:</b>
-          </span>
-          <span class="item-note">
-            关于上报稲盛石化投发公司ERP系统报表及辅助程序开发项目建议书的指示.doc
-          </span>
-        </ion-item>
-        <ion-item>
-          <span class="item-note">
-            <b>附件:</b>
-          </span>
-          <span class="item-note">
-            
-          </span>
-        </ion-item>
-        
-      </ion-list>
-    </ion-item>
+    <ion-list class="card">
+      <ion-item class="item-avatar">
+        <img ng-src="modules/address/img/logo.png">
+        <h2>{{title}}</h2>
+      </ion-item>
+      <ion-item class="item-icon-left">
+        <i class="icon ion-email"></i><a href="mailto:yangq@daoshenggroup.com">yangq@daoshenggroup.com</a>
+      </ion-item>
+      <ion-item class="item-icon-left item-icon-right">
+        <i class="icon ion-chatbubble-working"></i>
+        15801632955
+        <i class="icon ion-ios-telephone-outline"></i>
+      </ion-item>
+      
+      <ion-item class="item-icon-left item-icon-right">
+      </ion-item>
+    </ion-list>
   </ion-content>
 </ion-view>

@@ -11,11 +11,11 @@ field.config(function($stateProvider, $urlRouterProvider) {
 	    templateUrl: "modules/address/lists.html",
 	    controller:'AddressCtrl'
   })
-//  .state('field.home.address.detail', {
-//	    url: "/lists/:pid/:id",
-//	    templateUrl: "modules/address/detail.html",
-//	    controller:'AddressCtrl'
-//  })
+  .state('field.home.address.detail', {
+	    url: "/lists/:pid/:id",
+	    templateUrl: "modules/address/detail.html",
+	    controller:'AddressCtrl'
+  })
 ;
   
 });
