@@ -1,0 +1,21 @@
+<ion-view view-title="{{title}}">
+  <ion-content class="detail">
+    <ion-list class="card">
+      <ion-item class="item-avatar">
+        <img ng-src="modules/address/img/logo.png">
+        <h2>{{title}}</h2>
+      </ion-item>
+      <ion-item class="item-icon-left" ng-click="sendEmail('yangq@daoshenggroup.com')" >
+        <i class="icon ion-email"></i>yangq@daoshenggroup.com
+      </ion-item>
+      <ion-item class="item-icon-left item-icon-right" >
+        <i class="icon ion-chatbubble-working"></i>
+        15801632955
+        <a class="button button-icon icon ion-ios-telephone-outline" ng-click="call('15801632955')"></a>
+      </ion-item>
+      
+      <ion-item class="item-icon-left item-icon-right">
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

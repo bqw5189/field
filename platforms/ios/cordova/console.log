@@ -475,3 +475,5 @@
 2015-03-31 16:54:28.286 field[36993:1218369] Resetting plugins due to page load.
 2015-03-31 16:54:28.491 field[36993:1218369] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/8BF637CA-9734-4060-82FE-8EA552349E04/field.app/www/index.html#/field/login
 2015-03-31 16:54:45.927 field[36993:1218369] THREAD WARNING: ['EmailComposer'] took '38.502930' ms. Plugin should use a background thread.
+2015-03-31 17:11:10.736 field[36993:1218369] THREAD WARNING: ['EmailComposer'] took '10.619873' ms. Plugin should use a background thread.
+2015-03-31 17:13:07.391 field[36993:1225402] Terminating since there is no system app.

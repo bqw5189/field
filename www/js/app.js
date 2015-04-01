@@ -6,7 +6,8 @@ var field = angular.module('field', ['ionic',
                                      'home.controllers',
                                      'settings.controllers',
                                      'backlog.controllers',
-                                     'address.controllers'
+                                     'address.controllers',
+                                     'report.controllers'
                                      ])
 
 .run(function($ionicPlatform) {
