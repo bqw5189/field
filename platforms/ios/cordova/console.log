@@ -477,3 +477,19 @@
 2015-03-31 16:54:45.927 field[36993:1218369] THREAD WARNING: ['EmailComposer'] took '38.502930' ms. Plugin should use a background thread.
 2015-03-31 17:11:10.736 field[36993:1218369] THREAD WARNING: ['EmailComposer'] took '10.619873' ms. Plugin should use a background thread.
 2015-03-31 17:13:07.391 field[36993:1225402] Terminating since there is no system app.
+2015-04-01 17:09:20.678 field[41048:1366704] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/09BEA56C-DE8D-47DB-8369-2A08548EEC4B/Library/Cookies/Cookies.binarycookies
+2015-04-01 17:09:20.932 field[41048:1366704] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-01 17:09:20.932 field[41048:1366704] Multi-tasking -> Device: YES, App: YES
+2015-04-01 17:09:20.944 field[41048:1366704] Unlimited access to network resources
+2015-04-01 17:09:21.356 field[41048:1366704] [CDVTimer][keyboard] 0.084996ms
+2015-04-01 17:09:21.356 field[41048:1366704] [CDVTimer][TotalPluginStartup] 0.279009ms
+2015-04-01 17:09:21.493 field[41048:1366704] Resetting plugins due to page load.
+2015-04-01 17:09:21.828 field[41048:1366704] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/F0086EA4-6E96-4026-9B66-B68033477A68/field.app/www/index.html#/field/login
+2015-04-01 17:09:54.449 field[41297:1367971] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/82E0AE3A-6F61-4F0D-9B6C-00682D11666A/Library/Cookies/Cookies.binarycookies
+2015-04-01 17:09:54.553 field[41297:1367971] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-01 17:09:54.554 field[41297:1367971] Multi-tasking -> Device: YES, App: YES
+2015-04-01 17:09:54.556 field[41297:1367971] Unlimited access to network resources
+2015-04-01 17:09:54.777 field[41297:1367971] [CDVTimer][keyboard] 0.061989ms
+2015-04-01 17:09:54.777 field[41297:1367971] [CDVTimer][TotalPluginStartup] 0.240982ms
+2015-04-01 17:09:54.846 field[41297:1367971] Resetting plugins due to page load.
+2015-04-01 17:09:55.111 field[41297:1367971] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/599D30B7-A9F5-4527-9B39-CD405C31291B/field.app/www/index.html#/field/login
