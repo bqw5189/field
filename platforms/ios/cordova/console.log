@@ -493,3 +493,44 @@
 2015-04-01 17:09:54.777 field[41297:1367971] [CDVTimer][TotalPluginStartup] 0.240982ms
 2015-04-01 17:09:54.846 field[41297:1367971] Resetting plugins due to page load.
 2015-04-01 17:09:55.111 field[41297:1367971] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/599D30B7-A9F5-4527-9B39-CD405C31291B/field.app/www/index.html#/field/login
+2015-04-03 10:45:25.387 field[45786:1436863] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/D47C1918-09DA-4C79-B402-E051E39CC3D2/Library/Cookies/Cookies.binarycookies
+2015-04-03 10:45:25.617 field[45786:1436863] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-03 10:45:25.618 field[45786:1436863] Multi-tasking -> Device: YES, App: YES
+2015-04-03 10:45:25.631 field[45786:1436863] Unlimited access to network resources
+2015-04-03 10:45:26.030 field[45786:1436863] [CDVTimer][keyboard] 0.064969ms
+2015-04-03 10:45:26.031 field[45786:1436863] [CDVTimer][TotalPluginStartup] 0.263989ms
+2015-04-03 10:45:26.173 field[45786:1436863] Resetting plugins due to page load.
+2015-04-03 10:45:26.487 field[45786:1436863] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/A49171C2-FB81-420B-BC44-6E3D3F6645E8/field.app/www/index.html#/field/login
+2015-04-03 10:46:21.398 field[45786:1436863] THREAD WARNING: ['Keyboard'] took '12.184082' ms. Plugin should use a background thread.
+2015-04-03 10:54:06.040 field[46075:1441388] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/3ECF63BD-8092-41D1-8731-E23349719BAE/Library/Cookies/Cookies.binarycookies
+2015-04-03 10:54:06.139 field[46075:1441388] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-03 10:54:06.139 field[46075:1441388] Multi-tasking -> Device: YES, App: YES
+2015-04-03 10:54:06.141 field[46075:1441388] Unlimited access to network resources
+2015-04-03 10:54:06.422 field[46075:1441388] [CDVTimer][keyboard] 0.077009ms
+2015-04-03 10:54:06.422 field[46075:1441388] [CDVTimer][TotalPluginStartup] 0.252008ms
+2015-04-03 10:54:06.518 field[46075:1441388] Resetting plugins due to page load.
+2015-04-03 10:54:06.945 field[46075:1441388] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/6E65B419-BF38-4BA4-A198-2408E450E017/field.app/www/index.html#/field/login
+2015-04-03 10:55:13.512 field[46315:1442760] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/84B22327-6607-4A37-A15D-8853618B9411/Library/Cookies/Cookies.binarycookies
+2015-04-03 10:55:13.641 field[46315:1442760] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-03 10:55:13.642 field[46315:1442760] Multi-tasking -> Device: YES, App: YES
+2015-04-03 10:55:13.644 field[46315:1442760] Unlimited access to network resources
+2015-04-03 10:55:14.040 field[46315:1442760] [CDVTimer][keyboard] 0.100970ms
+2015-04-03 10:55:14.040 field[46315:1442760] [CDVTimer][TotalPluginStartup] 0.401974ms
+2015-04-03 10:55:14.148 field[46315:1442760] Resetting plugins due to page load.
+2015-04-03 10:55:14.395 field[46315:1442760] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/183CAE0F-9153-4844-9AFF-965386040B8B/field.app/www/index.html#/field/login
+2015-04-03 11:19:13.976 field[46606:1448788] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/29A98D64-0B5A-4AD9-9749-4E0EBA860192/Library/Cookies/Cookies.binarycookies
+2015-04-03 11:19:14.074 field[46606:1448788] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-03 11:19:14.074 field[46606:1448788] Multi-tasking -> Device: YES, App: YES
+2015-04-03 11:19:14.076 field[46606:1448788] Unlimited access to network resources
+2015-04-03 11:19:14.298 field[46606:1448788] [CDVTimer][keyboard] 0.091970ms
+2015-04-03 11:19:14.299 field[46606:1448788] [CDVTimer][TotalPluginStartup] 0.352025ms
+2015-04-03 11:19:14.400 field[46606:1448788] Resetting plugins due to page load.
+2015-04-03 11:19:14.670 field[46606:1448788] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/5D06E544-B76C-44DF-B15C-24B8AE4B9497/field.app/www/index.html#/field/login
+2015-04-03 11:29:11.383 field[47838:1455259] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/6C897178-CDDB-4926-868C-7DCFCAA8E44A/Library/Cookies/Cookies.binarycookies
+2015-04-03 11:29:11.511 field[47838:1455259] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-03 11:29:11.512 field[47838:1455259] Multi-tasking -> Device: YES, App: YES
+2015-04-03 11:29:11.514 field[47838:1455259] Unlimited access to network resources
+2015-04-03 11:29:11.848 field[47838:1455259] [CDVTimer][keyboard] 0.064015ms
+2015-04-03 11:29:11.848 field[47838:1455259] [CDVTimer][TotalPluginStartup] 0.250995ms
+2015-04-03 11:29:11.950 field[47838:1455259] Resetting plugins due to page load.
+2015-04-03 11:29:12.231 field[47838:1455259] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/E88A2F1A-006B-4A6B-8362-D4C932FA176C/field.app/www/index.html#/field/login

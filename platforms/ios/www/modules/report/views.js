@@ -11,6 +11,11 @@ field.config(function($stateProvider, $urlRouterProvider) {
 	    templateUrl: "modules/report/lists.html",
 	    controller:'ReportCtrl'
   })
+  .state('field.home.report.lists-report', {
+	    url: "/lists-report",
+	    templateUrl: "modules/report/lists-report.html",
+	    controller:'ReportCtrl'
+  })
   .state('field.home.report.detail', {
 	    url: "/lists/:pid/:id",
 	    templateUrl: "modules/report/detail.html",
