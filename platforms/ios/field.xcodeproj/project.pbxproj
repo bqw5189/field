@@ -46,6 +46,7 @@
 		D26B39E141CD45CAA25932CC /* CFCallNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 947BE708BE1B4F58880837C1 /* CFCallNumber.m */; };
 		9059B13F04BE4B5BA2F122F2 /* APPEmailComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 157E8AA07868423FB3F9493F /* APPEmailComposer.m */; };
 		85F8D7F498B14AA8AEEF5B56 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667AD6F7962A4D8AB4293225 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F359F73AA4E142EFA1723E1F /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A396C0FCCC43FF86593954 /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,8 @@
 		157E8AA07868423FB3F9493F /* APPEmailComposer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "APPEmailComposer.m"; path = "de.appplant.cordova.plugin.email-composer/APPEmailComposer.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		E5F286776A254B38B4B88EEE /* APPEmailComposer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "APPEmailComposer.h"; path = "de.appplant.cordova.plugin.email-composer/APPEmailComposer.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		667AD6F7962A4D8AB4293225 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		70A396C0FCCC43FF86593954 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9171EE3653994DD08C5AB53E /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +237,8 @@
 				734A6CA89296480FB6AE1389 /* CFCallNumber.h */,
 				157E8AA07868423FB3F9493F /* APPEmailComposer.m */,
 				E5F286776A254B38B4B88EEE /* APPEmailComposer.h */,
+				70A396C0FCCC43FF86593954 /* CDVInAppBrowser.m */,
+				9171EE3653994DD08C5AB53E /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = field/Plugins;
@@ -429,6 +434,7 @@
 				2790C70F07F94B5B8125FEF1 /* CDVDevice.m in Sources */,
 				D26B39E141CD45CAA25932CC /* CFCallNumber.m in Sources */,
 				9059B13F04BE4B5BA2F122F2 /* APPEmailComposer.m in Sources */,
+				F359F73AA4E142EFA1723E1F /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

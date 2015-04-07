@@ -1,0 +1,26 @@
+<ion-view view-title="通讯录">
+  <ion-header-bar class="item-input-inset bar-subheader" >
+    <label class="item-input-wrapper">
+      <i class="icon ion-ios7-search placeholder-icon"></i>
+      <input type="search" placeholder="搜索"  ng-model='searchText' >
+    </label>
+    <button class="button button-clear">
+      搜索
+    </button>
+  </ion-header-bar>
+  <ion-content class="">
+    <ion-list>
+      <ion-item class="item-icon-left item-icon-right" ng-href="#/field/home/video/lists/{{item.id}}" ng-show='item.pid == pid && item.hasChild=="true"' ng-repeat="item in videoDatas | filter:searchText">
+        <i class="icon ion-person "></i>
+        {{item.title}}
+        <i class="icon ion-chevron-right "></i>
+      </ion-item>
+      
+      <ion-item class="item-icon-left item-icon-right" ng-click="openUrl({{item.id}})" ng-href="#" ng-show='item.pid == pid && item.hasChild=="false"' ng-repeat="item in videoDatas | filter:searchText">
+        <i class="icon ion-person "></i>
+        {{item.title}}
+        <i class="icon ion-chevron-right "></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

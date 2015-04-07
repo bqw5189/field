@@ -7,6 +7,7 @@ var field = angular.module('field', ['ionic',
                                      'settings.controllers',
                                      'backlog.controllers',
                                      'address.controllers',
+                                     'video.controllers',
                                      'report.controllers'
                                      ])
 
