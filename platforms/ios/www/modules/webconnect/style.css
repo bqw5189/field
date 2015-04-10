@@ -1,0 +1,7 @@
+.scroll-wrapper {  
+    -webkit-overflow-scrolling: touch;  
+    overflow-y: scroll;  
+    height: 1000px;
+    width: 100%;
+}  
+

@@ -743,3 +743,37 @@ Apr  8 14:35:57 BaiQunweideMacBook-Air.local rtcreporting[58769] <Error>: sendMe
 Apr  8 14:35:57 BaiQunweideMacBook-Air.local rtcreporting[58769] <Error>: sendMessageWithCategory: Failed to get remote object proxy: Error Domain=NSCocoaErrorDomain Code=4099 "The operation couldn’t be completed. (Cocoa error 4099.)" (The connection to service named com.apple.rtcreportingd was invalidated.) UserInfo=0x7a756330 {NSDebugDescription=The connection to service named com.apple.rtcreportingd was invalidated.}
 Apr  8 14:35:57 BaiQunweideMacBook-Air.local rtcreporting[58769] <Error>: sendMessageWithCategory: Failed to get remote object proxy: Error Domain=NSCocoaErrorDomain Code=4099 "The operation couldn’t be completed. (Cocoa error 4099.)" (The connection to service named com.apple.rtcreportingd was invalidated.) UserInfo=0x7a756330 {NSDebugDescription=The connection to service named com.apple.rtcreportingd was invalidated.}
 Apr  8 14:35:57 BaiQunweideMacBook-Air.local rtcreporting[58769] <Error>: sendMessageWithCategory: Failed to get remote object proxy: Error Domain=NSCocoaErrorDomain Code=4099 "The operation couldn’t be completed. (Cocoa error 4099.)" (The connection to service named com.apple.rtcreportingd was invalidated.) UserInfo=0x7a6f1130 {NSDebugDescription=The connection to service named com.apple.rtcreportingd was invalidated.}
+2015-04-09 17:47:57.468 field[6401:230149] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/D23AF365-9953-49DB-AF5D-9CE7D92749C5/Library/Cookies/Cookies.binarycookies
+2015-04-09 17:47:57.778 field[6401:230149] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-09 17:47:57.779 field[6401:230149] Multi-tasking -> Device: YES, App: YES
+2015-04-09 17:47:57.791 field[6401:230149] Unlimited access to network resources
+2015-04-09 17:47:58.188 field[6401:230149] [CDVTimer][keyboard] 0.087023ms
+2015-04-09 17:47:58.188 field[6401:230149] [CDVTimer][TotalPluginStartup] 0.310957ms
+2015-04-09 17:47:58.354 field[6401:230149] Resetting plugins due to page load.
+2015-04-09 17:47:58.711 field[6401:230149] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/CC4B1BEF-C052-4326-ADFA-C908CD4D1B69/field.app/www/index.html#/field/login
+2015-04-09 17:48:05.193 field[6401:230149] THREAD WARNING: ['InAppBrowser'] took '212.560059' ms. Plugin should use a background thread.
+2015-04-09 17:48:06.080 field[6401:230149] webView:didFailLoadWithError - 204: Plug-in handled load
+Apr  9 17:48:06 BaiQunweideMacBook-Air.local rtcreporting[6401] <Info>: logging starts...
+Apr  9 17:48:06 BaiQunweideMacBook-Air.local rtcreporting[6401] <Debug>: setMessageLoggingBlock: called
+2015-04-09 17:49:58.108 field[6941:231775] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/E4D19367-D23E-45CB-A7B1-3AD665CB0D41/Library/Cookies/Cookies.binarycookies
+2015-04-09 17:49:58.215 field[6941:231775] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-09 17:49:58.215 field[6941:231775] Multi-tasking -> Device: YES, App: YES
+2015-04-09 17:49:58.218 field[6941:231775] Unlimited access to network resources
+2015-04-09 17:49:58.404 field[6941:231775] [CDVTimer][keyboard] 0.066996ms
+2015-04-09 17:49:58.405 field[6941:231775] [CDVTimer][TotalPluginStartup] 0.243008ms
+2015-04-09 17:49:58.466 field[6941:231775] Resetting plugins due to page load.
+2015-04-09 17:49:58.691 field[6941:231775] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/911D340C-F280-4076-91BA-F70DA10A9672/field.app/www/index.html#/field/login
+2015-04-09 17:50:05.168 field[6941:231775] THREAD WARNING: ['InAppBrowser'] took '161.125000' ms. Plugin should use a background thread.
+2015-04-09 17:50:05.429 field[6941:231775] webView:didFailLoadWithError - 204: Plug-in handled load
+Apr  9 17:50:05 BaiQunweideMacBook-Air.local rtcreporting[6941] <Info>: logging starts...
+Apr  9 17:50:05 BaiQunweideMacBook-Air.local rtcreporting[6941] <Debug>: setMessageLoggingBlock: called
+2015-04-09 17:56:25.373 field[8289:235924] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/0ECC7B9F-4159-46C1-BA05-708489C0D44E/Library/Cookies/Cookies.binarycookies
+2015-04-09 17:56:25.467 field[8289:235924] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-09 17:56:25.467 field[8289:235924] Multi-tasking -> Device: YES, App: YES
+2015-04-09 17:56:25.469 field[8289:235924] Unlimited access to network resources
+2015-04-09 17:56:25.668 field[8289:235924] [CDVTimer][keyboard] 0.106990ms
+2015-04-09 17:56:25.668 field[8289:235924] [CDVTimer][TotalPluginStartup] 0.344992ms
+2015-04-09 17:56:25.758 field[8289:235924] Resetting plugins due to page load.
+2015-04-09 17:56:26.036 field[8289:235924] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/78B171D1-1720-4198-8DEF-C2711E16AF1F/field.app/www/index.html#/field/login
+2015-04-09 17:56:31.221 field[8289:235924] THREAD WARNING: ['InAppBrowser'] took '176.331055' ms. Plugin should use a background thread.
+2015-04-10 10:36:08.344 field[8289:272101] Terminating since there is no system app.
