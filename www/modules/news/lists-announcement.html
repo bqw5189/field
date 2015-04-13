@@ -11,7 +11,7 @@
       </ion-header-bar>
     <ion-list>
       <ion-item class="item-icon-right" ng-href="#/field/home/news/lists/{{item.id}}" ng-repeat="item in announcementDatas | filter:searchText">
-        {{item.title}}
+        <h3>{{item.title}}</h3>
         <i class="icon ion-chevron-right "></i>
         
         <span class="item-note">
