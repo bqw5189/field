@@ -1,9 +1,10 @@
 angular.module('news.controllers', [])
 
-.controller('NewsCtrl', function($scope,AppConfig, $ionicLoading,$ionicHistory,BacklogDatas,BacklogedDatas,$stateParams) {
+.controller('NewsCtrl', function($scope,AppConfig, $ionicLoading,$ionicHistory,NewsDatas,InformDatas,AnnouncementDatas,$stateParams) {
 	$scope.style=AppConfig.Style;
-	$scope.backlogDatas = BacklogDatas;
-	$scope.backlogedDatas = BacklogedDatas;
+	$scope.newsDatas = NewsDatas;
+	$scope.informDatas = InformDatas;
+	$scope.announcementDatas = AnnouncementDatas;
 	
 	$scope.goBack=function(){
 		$ionicHistory.goBack();
@@ -37,34 +38,34 @@ angular.module('news.controllers', [])
 	   * detail
 	   */
 	  $scope.backlog=function(){
-			for (var i = 0; i < BacklogDatas.length; i++){
-				if (BacklogDatas[i].id == $stateParams.id){
-					return BacklogDatas[i];
+			for (var i = 0; i < NewsDatas.length; i++){
+				if (NewsDatas[i].id == $stateParams.id){
+					return NewsDatas[i];
 				}
 			}
 			return null;
 		}
 	  
 	  $scope.title=function(){
-			for (var i = 0; i < BacklogDatas.length; i++){
-				if (BacklogDatas[i].id == $stateParams.id){
-					return BacklogDatas[i].title;
+			for (var i = 0; i < NewsDatas.length; i++){
+				if (NewsDatas[i].id == $stateParams.id){
+					return NewsDatas[i].title;
 				}
 			}
 			return "待办详细";
 		}
 	  
 	  $scope.onSubmit = function(backlog){
-		  BacklogedDatas.push(backlog);
+		  NewsDatas.push(backlog);
 		  
-		  BacklogDatas.splice(BacklogDatas.indexOf(backlog), 1);
+		  NewsDatas.splice(NewsDatas.indexOf(backlog), 1);
 		  
 		  $ionicHistory.goBack();
 	  }
 	  
 	  $scope.isBacklog = function(){
-		  for (var i = 0; i < BacklogDatas.length; i++){
-				if (BacklogDatas[i].id == $stateParams.id){
+		  for (var i = 0; i < NewsDatas.length; i++){
+				if (NewsDatas[i].id == $stateParams.id){
 					return true;
 				}
 			}
