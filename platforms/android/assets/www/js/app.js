@@ -9,6 +9,8 @@ var field = angular.module('field', ['ionic',
                                      'address.controllers',
                                      'video.controllers',
                                      'webconnect.controllers',
+                                     'knowledgesharing.controllers',
+                                     'news.controllers',
                                      'report.controllers'
                                      ])
 

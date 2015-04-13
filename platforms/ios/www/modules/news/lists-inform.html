@@ -1,0 +1,22 @@
+<ion-view view-title="通知">
+  <ion-content class="">
+    <ion-header-bar class="item-input-inset" >
+        <label class="item-input-wrapper">
+          <i class="icon ion-ios7-search placeholder-icon"></i>
+          <input type="search" placeholder="搜索"  ng-model='searchText' >
+        </label>
+        <button class="button button-clear">
+          搜索
+        </button>
+      </ion-header-bar>
+    <ion-list>
+      <ion-item class="item-icon-right" ng-href="#/field/home/news/lists/{{item.id}}" ng-repeat="item in informDatas | filter:searchText">
+        <h3>{{item.title}}</h3>
+        <i class="icon ion-chevron-right "></i>
+        <span class="item-note">
+          {{item.handleLastDate}}
+        </span>  
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
