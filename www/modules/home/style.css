@@ -2,17 +2,19 @@
 	width:100%
 }
 .nav{
-  padding-bottom:20px;	
+  padding-bottom:10px;	
 }
 .nav .row{
 	padding-top:0px;
 }
 .nav .card{
-	margin-top:6px;
+	margin-top:0px;
+	margin-bottom:5px;
 }
 .nav .slider-pager{
 	bottom: 10px;
 }
+
 
 .nav .row,.col:first-child{
 	padding-left:1px;
@@ -39,14 +41,15 @@
 }
 
 .item-thumbnail-left > img:first-child, .item-thumbnail-left .item-image, .item-thumbnail-left .item-content > img:first-child, .item-thumbnail-left .item-content .item-image{
-	width:60px;
-	height:60px;
+	width:40px;
+	height:40px;
 	top:20px;
 }
 
 
 .item-thumbnail-left, .item-thumbnail-left .item-content{
-	padding-left:90px
+	padding-left:90px;
+	min-height:70px
 }
 
 .item-content p{
@@ -59,4 +62,7 @@
 }
 .item-complex .item-content{
 	padding-right:10px
+}
+.icon, .ion-record{
+	font-size:8px;
 }

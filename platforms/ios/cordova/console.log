@@ -793,3 +793,27 @@ Apr  9 17:50:05 BaiQunweideMacBook-Air.local rtcreporting[6941] <Debug>: setMess
 2015-04-13 16:23:37.573 field[12523:447800] [CDVTimer][TotalPluginStartup] 0.248015ms
 2015-04-13 16:23:37.622 field[12523:447800] Resetting plugins due to page load.
 2015-04-13 16:23:37.858 field[12523:447800] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/07D399B8-84CF-4AD2-8D97-737BC2A62325/field.app/www/index.html#/field/login
+2015-04-14 16:24:48.714 field[15320:543574] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/1DD70FD5-84DF-46EA-9BB6-A2AE2D66B2B8/Library/Cookies/Cookies.binarycookies
+2015-04-14 16:24:48.929 field[15320:543574] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-14 16:24:48.929 field[15320:543574] Multi-tasking -> Device: YES, App: YES
+2015-04-14 16:24:48.943 field[15320:543574] Unlimited access to network resources
+2015-04-14 16:24:49.314 field[15320:543574] [CDVTimer][keyboard] 0.081003ms
+2015-04-14 16:24:49.314 field[15320:543574] [CDVTimer][TotalPluginStartup] 0.321031ms
+2015-04-14 16:24:49.457 field[15320:543574] Resetting plugins due to page load.
+2015-04-14 16:24:49.836 field[15320:543574] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/05573239-B84F-4D6D-9B9D-ACB72BCF3FFE/field.app/www/index.html#/field/login
+2015-04-14 16:26:20.676 field[15612:545054] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/E4819682-7E54-44A1-8C81-A92588AC613B/Library/Cookies/Cookies.binarycookies
+2015-04-14 16:26:20.762 field[15612:545054] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-14 16:26:20.762 field[15612:545054] Multi-tasking -> Device: YES, App: YES
+2015-04-14 16:26:20.764 field[15612:545054] Unlimited access to network resources
+2015-04-14 16:26:20.935 field[15612:545054] [CDVTimer][keyboard] 0.073969ms
+2015-04-14 16:26:20.935 field[15612:545054] [CDVTimer][TotalPluginStartup] 0.265002ms
+2015-04-14 16:26:20.995 field[15612:545054] Resetting plugins due to page load.
+2015-04-14 16:26:21.235 field[15612:545054] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/F8179EE5-4B6D-44DA-98B9-9F28817440E9/field.app/www/index.html#/field/login
+2015-04-14 16:27:08.116 field[15894:546246] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/59CD3DBE-7A3E-410A-BB8C-1C908106DBD8/Library/Cookies/Cookies.binarycookies
+2015-04-14 16:27:08.205 field[15894:546246] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-14 16:27:08.206 field[15894:546246] Multi-tasking -> Device: YES, App: YES
+2015-04-14 16:27:08.207 field[15894:546246] Unlimited access to network resources
+2015-04-14 16:27:08.371 field[15894:546246] [CDVTimer][keyboard] 0.059009ms
+2015-04-14 16:27:08.371 field[15894:546246] [CDVTimer][TotalPluginStartup] 0.231981ms
+2015-04-14 16:27:08.433 field[15894:546246] Resetting plugins due to page load.
+2015-04-14 16:27:08.677 field[15894:546246] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/13A91BBE-7730-47ED-BEF2-F160E834F1ED/field.app/www/index.html#/field/login
