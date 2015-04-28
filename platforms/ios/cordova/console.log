@@ -817,3 +817,19 @@ Apr  9 17:50:05 BaiQunweideMacBook-Air.local rtcreporting[6941] <Debug>: setMess
 2015-04-14 16:27:08.371 field[15894:546246] [CDVTimer][TotalPluginStartup] 0.231981ms
 2015-04-14 16:27:08.433 field[15894:546246] Resetting plugins due to page load.
 2015-04-14 16:27:08.677 field[15894:546246] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/13A91BBE-7730-47ED-BEF2-F160E834F1ED/field.app/www/index.html#/field/login
+2015-04-28 16:08:36.494 field[1381:107820] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/DB9F4AEE-022A-4729-B213-B00462C46F44/Library/Cookies/Cookies.binarycookies
+2015-04-28 16:08:36.724 field[1381:107820] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-28 16:08:36.725 field[1381:107820] Multi-tasking -> Device: YES, App: YES
+2015-04-28 16:08:36.739 field[1381:107820] Unlimited access to network resources
+2015-04-28 16:08:37.129 field[1381:107820] [CDVTimer][keyboard] 0.097990ms
+2015-04-28 16:08:37.129 field[1381:107820] [CDVTimer][TotalPluginStartup] 0.313997ms
+2015-04-28 16:08:37.307 field[1381:107820] Resetting plugins due to page load.
+2015-04-28 16:08:37.693 field[1381:107820] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/1688E881-1B0F-47D0-AD41-9D867AFC21C3/field.app/www/index.html#/field/login
+2015-04-28 16:09:22.750 field[1674:108895] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/DA8901C3-2966-432A-A987-4F75DB1008A5/Library/Cookies/Cookies.binarycookies
+2015-04-28 16:09:22.843 field[1674:108895] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-28 16:09:22.843 field[1674:108895] Multi-tasking -> Device: YES, App: YES
+2015-04-28 16:09:22.845 field[1674:108895] Unlimited access to network resources
+2015-04-28 16:09:23.012 field[1674:108895] [CDVTimer][keyboard] 0.059009ms
+2015-04-28 16:09:23.012 field[1674:108895] [CDVTimer][TotalPluginStartup] 0.239968ms
+2015-04-28 16:09:23.073 field[1674:108895] Resetting plugins due to page load.
+2015-04-28 16:09:23.336 field[1674:108895] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/AE732D27-A11C-47E5-8C45-EE3ED38803E0/field.app/www/index.html#/field/login
