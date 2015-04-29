@@ -1,12 +1,16 @@
 angular.module('backlog.controllers', [])
 
-.controller('BacklogCtrl', function($scope,AppConfig, $ionicLoading,$ionicHistory,BacklogDatas,BacklogedDatas,$stateParams) {
+.controller('BacklogCtrl', function($scope,$window,AppConfig, $ionicLoading,$ionicHistory,$location,BacklogDatas,BacklogedDatas,$stateParams) {
 	$scope.style=AppConfig.Style;
 	$scope.backlogDatas = BacklogDatas;
 	$scope.backlogedDatas = BacklogedDatas;
 	
 	$scope.goBack=function(){
-		$ionicHistory.goBack();
+		if($location.url() == '/field/home/backlog/lists/backlog' || $location.url() == '/field/home/backlog/lists/backloged'){
+			$location.path("/field/home/nav");
+		}else{
+			$ionicHistory.goBack();
+		}
 	}
 	
 	/*

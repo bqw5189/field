@@ -1,13 +1,17 @@
 angular.module('news.controllers', [])
 
-.controller('NewsCtrl', function($scope,AppConfig, $ionicLoading,$ionicHistory,NewsDatas,InformDatas,AnnouncementDatas,$stateParams) {
+.controller('NewsCtrl', function($scope,AppConfig, $ionicLoading,$location,$ionicHistory,NewsDatas,InformDatas,AnnouncementDatas,$stateParams) {
 	$scope.style=AppConfig.Style;
 	$scope.newsDatas = NewsDatas;
 	$scope.informDatas = InformDatas;
 	$scope.announcementDatas = AnnouncementDatas;
 	
 	$scope.goBack=function(){
-		$ionicHistory.goBack();
+		if($location.url() == '/field/home/news/lists/inform' || $location.url() == '/field/home/news/lists/announcement'|| $location.url() == '/field/home/news/lists/news'){
+			$location.path("/field/home/nav");
+		}else{
+			$ionicHistory.goBack();
+		}
 	}
 	
 	/*

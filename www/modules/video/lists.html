@@ -1,4 +1,4 @@
-<ion-view view-title="通讯录">
+<ion-view view-title="视频">
   <ion-header-bar class="item-input-inset bar-subheader" >
     <label class="item-input-wrapper">
       <i class="icon ion-ios7-search placeholder-icon"></i>
@@ -11,13 +11,13 @@
   <ion-content class="">
     <ion-list>
       <ion-item class="item-icon-left item-icon-right" ng-href="#/field/home/video/lists/{{item.id}}" ng-show='item.pid == pid && item.hasChild=="true"' ng-repeat="item in videoDatas | filter:searchText">
-        <i class="icon ion-person "></i>
+        <i class="icon ion-ios-videocam "></i>
         {{item.title}}
         <i class="icon ion-chevron-right "></i>
       </ion-item>
       
       <ion-item class="item-icon-left item-icon-right" ng-click="openUrl({{item.id}})" ng-href="#" ng-show='item.pid == pid && item.hasChild=="false"' ng-repeat="item in videoDatas | filter:searchText">
-        <i class="icon ion-person "></i>
+        <i class="icon ion-ios-videocam "></i>
         {{item.title}}
         <i class="icon ion-chevron-right "></i>
       </ion-item>

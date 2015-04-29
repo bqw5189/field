@@ -833,3 +833,36 @@ Apr  9 17:50:05 BaiQunweideMacBook-Air.local rtcreporting[6941] <Debug>: setMess
 2015-04-28 16:09:23.012 field[1674:108895] [CDVTimer][TotalPluginStartup] 0.239968ms
 2015-04-28 16:09:23.073 field[1674:108895] Resetting plugins due to page load.
 2015-04-28 16:09:23.336 field[1674:108895] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/AE732D27-A11C-47E5-8C45-EE3ED38803E0/field.app/www/index.html#/field/login
+2015-04-29 10:23:18.325 field[17077:216549] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/9418BFD1-F054-44D8-8FBB-0B7713C47AA9/Library/Cookies/Cookies.binarycookies
+2015-04-29 10:23:18.425 field[17077:216549] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-29 10:23:18.425 field[17077:216549] Multi-tasking -> Device: YES, App: YES
+2015-04-29 10:23:18.428 field[17077:216549] Unlimited access to network resources
+2015-04-29 10:23:18.621 field[17077:216549] [CDVTimer][keyboard] 0.070035ms
+2015-04-29 10:23:18.621 field[17077:216549] [CDVTimer][TotalPluginStartup] 0.249982ms
+2015-04-29 10:23:18.675 field[17077:216549] Resetting plugins due to page load.
+2015-04-29 10:23:18.942 field[17077:216549] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/421C13B8-269E-42E8-8858-0B661A0D4D20/field.app/www/index.html#/field/login
+2015-04-29 15:29:55.001 field[17576:293265] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Data/Application/B9F1B73A-2F1C-4F1C-949C-2F770B324955/Library/Cookies/Cookies.binarycookies
+2015-04-29 15:29:55.113 field[17576:293265] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-29 15:29:55.113 field[17576:293265] Multi-tasking -> Device: YES, App: YES
+2015-04-29 15:29:55.115 field[17576:293265] Unlimited access to network resources
+2015-04-29 15:29:55.330 field[17576:293265] [CDVTimer][keyboard] 0.095963ms
+2015-04-29 15:29:55.330 field[17576:293265] [CDVTimer][TotalPluginStartup] 0.356972ms
+2015-04-29 15:29:55.423 field[17576:293265] Resetting plugins due to page load.
+2015-04-29 15:29:55.750 field[17576:293265] Finished load of: file:///Users/baiqunwei/Library/Developer/CoreSimulator/Devices/B79E92F8-6651-4620-B348-75739FD9DFD7/data/Containers/Bundle/Application/685A8CEA-A891-40D6-BEAF-EE89B5DBA260/field.app/www/index.html#/field/login
+2015-04-29 15:30:01.377 field[17576:293265] THREAD WARNING: ['InAppBrowser'] took '230.867920' ms. Plugin should use a background thread.
+2015-04-29 15:30:02.999 field[17576:293265] webView:didFailLoadWithError - 204: Plug-in handled load
+2015-04-29 15:30:31.431 field[17576:293265] THREAD WARNING: ['InAppBrowser'] took '152.700928' ms. Plugin should use a background thread.
+2015-04-29 15:30:31.632 field[17576:293265] webView:didFailLoadWithError - 204: Plug-in handled load
+2015-04-29 15:30:35.246 field[17576:293265] CDVWebViewDelegate: Navigation started when state=1
+2015-04-29 15:30:35.246 field[17576:293265] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-29 15:30:35.414 field[17576:293265] THREAD WARNING: ['InAppBrowser'] took '166.660156' ms. Plugin should use a background thread.
+2015-04-29 15:30:35.537 field[17576:293265] webView:didFailLoadWithError - 204: Plug-in handled load
+Apr 29 15:30:35 BaiQunweideMacBook-Air.local rtcreporting[17576] <Info>: logging starts...
+Apr 29 15:30:35 BaiQunweideMacBook-Air.local rtcreporting[17576] <Debug>: setMessageLoggingBlock: called
+2015-04-29 15:30:44.798 field[17576:293265] CDVWebViewDelegate: Navigation started when state=1
+2015-04-29 15:30:44.798 field[17576:293265] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-04-29 15:30:44.951 field[17576:293265] THREAD WARNING: ['InAppBrowser'] took '150.954102' ms. Plugin should use a background thread.
+2015-04-29 15:30:45.127 field[17576:293265] webView:didFailLoadWithError - 204: Plug-in handled load
+Apr 29 15:30:45 BaiQunweideMacBook-Air.local rtcreporting[17576] <Debug>: setMessageLoggingBlock: called
+Apr 29 15:33:02 BaiQunweideMacBook-Air.local rtcreporting[17576] <Debug>: initWithSessionInfo: XPC connection interrupted
+Apr 29 15:33:02 BaiQunweideMacBook-Air.local rtcreporting[17576] <Debug>: initWithSessionInfo: XPC connection interrupted

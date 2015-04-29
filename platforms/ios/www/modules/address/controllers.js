@@ -1,7 +1,7 @@
 angular.module('address.controllers', [])
 
 
-.controller('AddressCtrl', function($scope,AppConfig, $ionicLoading,$ionicHistory,AddressDatas,$stateParams,$cordovaEmailComposer) {
+.controller('AddressCtrl', function($scope,AppConfig, $ionicLoading,$location,$ionicHistory,AddressDatas,$stateParams,$cordovaEmailComposer) {
 	$scope.style=AppConfig.Style;
 	$scope.addressDatas = AddressDatas;
 	$scope.pid = $stateParams.pid;
@@ -46,7 +46,11 @@ angular.module('address.controllers', [])
 	}
 	
 	$scope.goBack=function(){
-		$ionicHistory.goBack();
+		if($location.url() == '/field/home/address/lists/0'){
+			$location.path("/field/home/nav");
+		}else{
+			$ionicHistory.goBack();
+		}
 	}
 	
 })
