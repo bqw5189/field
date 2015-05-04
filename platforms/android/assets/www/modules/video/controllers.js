@@ -29,9 +29,13 @@ angular.module('video.controllers', [])
 				
 //				if (ionic.Platform.isIOS()) return  $cordovaInAppBrowser.open(VideoDatas[i].ios, '_self', options);
 //				 $cordovaInAppBrowser.open(VideoDatas[i].android, '_system', options);
-				window.open('http://apache.org', '_blank', 'location=yes');
-//				if (ionic.Platform.isIOS()) return window.open(VideoDatas[i].ios,'','width=200,height=100');
-//				window.open(VideoDatas[i].android,'','width=200,height=100')
+//				window.open('http://apache.org', '_blank', 'location=yes');
+//				window.open(VideoDatas[i].android, '_blank', 'location=yes');
+				if (ionic.Platform.isIOS()) {
+					window.open(VideoDatas[i].ios, '_blank', 'location=yes'); 
+				}else{
+					$cordovaInAppBrowser.open(VideoDatas[i].android, '_system', options);
+				}
 			}
 		}
 	}

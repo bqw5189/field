@@ -34,7 +34,7 @@ angular.module('video.controllers', [])
 				if (ionic.Platform.isIOS()) {
 					window.open(VideoDatas[i].ios, '_blank', 'location=yes'); 
 				}else{
-					window.open(VideoDatas[i].android, '_blank', 'location=yes');
+					$cordovaInAppBrowser.open(VideoDatas[i].android, '_system', options);
 				}
 			}
 		}

@@ -455,7 +455,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 群伟 白 (R57FX62G8G)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Daosheng Electronic Technology Co., Ltd.";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -464,7 +464,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "field/field-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -478,7 +478,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = field;
-				PROVISIONING_PROFILE = "4c62f414-e2ec-40ce-aa5f-f972bea49bda";
+				PROVISIONING_PROFILE = "7e00443d-5db2-41cc-8c05-6016d7c569b3";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -488,14 +488,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 群伟 白 (R57FX62G8G)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Daosheng Electronic Technology Co., Ltd.";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "field/field-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "field/field-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
@@ -509,7 +509,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = field;
-				PROVISIONING_PROFILE = "4c62f414-e2ec-40ce-aa5f-f972bea49bda";
+				PROVISIONING_PROFILE = "7e00443d-5db2-41cc-8c05-6016d7c569b3";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -524,7 +524,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 群伟 白 (R57FX62G8G)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Daosheng Electronic Technology Co., Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Daosheng Electronic Technology Co., Ltd.";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
@@ -553,7 +553,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PROVISIONING_PROFILE = "4c62f414-e2ec-40ce-aa5f-f972bea49bda";
+				PROVISIONING_PROFILE = "7e00443d-5db2-41cc-8c05-6016d7c569b3";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -570,7 +570,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 群伟 白 (R57FX62G8G)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Daosheng Electronic Technology Co., Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Daosheng Electronic Technology Co., Ltd.";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
@@ -598,7 +598,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PROVISIONING_PROFILE = "4c62f414-e2ec-40ce-aa5f-f972bea49bda";
+				PROVISIONING_PROFILE = "7e00443d-5db2-41cc-8c05-6016d7c569b3";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
