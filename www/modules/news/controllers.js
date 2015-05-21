@@ -1,10 +1,23 @@
 angular.module('news.controllers', [])
 
-.controller('NewsCtrl', function($scope,AppConfig, $ionicLoading,$location,$ionicHistory,NewsDatas,InformDatas,AnnouncementDatas,$stateParams) {
+.controller('NewsCtrl', function($scope,AppConfig, $ionicLoading,$location,$ionicHistory,NewsDatas,InformDatas,AnnouncementDatas,$stateParams,$http) {
 	$scope.style=AppConfig.Style;
 	$scope.newsDatas = NewsDatas;
 	$scope.informDatas = InformDatas;
 	$scope.announcementDatas = AnnouncementDatas;
+	
+	$http.get('modules/news/news.json')
+		.success(
+	        function(data, status, header, config){
+	            $scope.newsDatas = data;
+	        }
+	    )
+	    .error(
+	        function(data, status, header, config){
+	            alert("error");
+	        }
+	    );
+	
 	
 	$scope.goBack=function(){
 		if($location.url() == '/field/home/news/lists/inform' || $location.url() == '/field/home/news/lists/announcement'|| $location.url() == '/field/home/news/lists/news'){
